@@ -1,0 +1,98 @@
+#div1{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#div3{
+    background-color: lightgray;
+    text-align: center;
+    font-size: 18px;
+}
+table{
+    width: 100%;
+    padding: 50px;
+}
+a{
+    color: yellow;
+    font-size: 25px;
+}
+a:hover{
+    text-decoration: none;
+    color: lightgoldenrodyellow;
+    font-size: 27px;
+}
+a:link,a:active,a:visited{
+    text-decoration: none;
+}
+h1{
+    font-size: 50px;
+    color: yellow;
+    text-align: center;
+    padding: 175px;
+}
+footer{
+    margin-top: 100px;
+    padding: 40px;
+}
+p{
+    font-size: 25px;
+    padding: 20px;
+    margin-bottom: 200px;
+}
+body{
+    background-image: linear-gradient(#A47E3B, #BF9742);
+}
+td{
+    font-size: 20px;
+}
+form{
+    border: 1px solid whitesmoke;
+    border-radius: 30px;
+    box-shadow: 2px 2px 8px black; 
+    padding: 20px;
+    margin: auto;
+    width: 400px;
+}
+.main{
+    position: relative;
+    width: 80%;
+}
+.img1{
+    display: block;
+    height:300px;
+    width: 350px;;
+    border-radius: 20%;
+}
+.coffee{
+    position: absolute;
+    bottom:0;
+    left:0;
+    right:0;
+     background-color:#BF9742 ;
+     overflow: hidden;
+     width:0;
+     height:100%;
+     transition: .5s ease;
+}
+.main:hover .coffee{
+    width:107%;
+    border-radius: 20%;
+}
+.detail{
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    white-space:wrap;
+}
+table{
+    border-spacing: 20px;
+}
+#custom{
+    margin: 10px;
+}
+button{
+    background-color: green;
+    color: white;
+    font-size: 15px;
+}
